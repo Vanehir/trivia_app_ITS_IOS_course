@@ -15,6 +15,18 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
             Text("Hello, world!")
         }
+        .onAppear(){
+            let useCase = FetchQuizUseCaseHandler()
+            Task{
+                do {
+                    let response = try await useCase.fetch()
+                    print(response.first    )
+                }catch {
+                    print(error.localizedDescription)
+                }
+            }
+                
+        }
         .padding()
     }
 }
