@@ -7,7 +7,7 @@
 
 import Foundation
 import Alamofire
-typealias OggettoConcreto = QnAItem
+
 
 
 enum NetworkManagerError: Error {
@@ -16,9 +16,10 @@ enum NetworkManagerError: Error {
 
 class NetworkManager {
     
+    let urlApi = "https://opentdb.com/api.php?amount=10&category=15&difficulty=easy&type=multiple"
     func fetchData() async throws -> TriviaResponse {
         
-        let response = try await AF.request("https://opentdb.com/api.php?amount=10&category=15&difficulty=easy&type=multiple")
+        let response = try await AF.request(urlApi)
             .serializingDecodable(TriviaResponse.self).value
         return response
     }

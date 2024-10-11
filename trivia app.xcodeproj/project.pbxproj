@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A373C8C2CB911C200CF01E5 /* Abstraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A373C8B2CB911C200CF01E5 /* Abstraction.swift */; };
+		1A373CA12CB919D200CF01E5 /* abstraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A373CA02CB919D200CF01E5 /* abstraction.swift */; };
 		B05A1F432CB51C0800839C7C /* trivia_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A1F422CB51C0800839C7C /* trivia_appApp.swift */; };
 		B05A1F452CB51C0800839C7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A1F442CB51C0800839C7C /* ContentView.swift */; };
 		B05A1F472CB51C0B00839C7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B05A1F462CB51C0B00839C7C /* Assets.xcassets */; };
@@ -39,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A373C8B2CB911C200CF01E5 /* Abstraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abstraction.swift; sourceTree = "<group>"; };
+		1A373CA02CB919D200CF01E5 /* abstraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = abstraction.swift; sourceTree = "<group>"; };
 		B05A1F3F2CB51C0800839C7C /* trivia app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "trivia app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B05A1F422CB51C0800839C7C /* trivia_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trivia_appApp.swift; sourceTree = "<group>"; };
 		B05A1F442CB51C0800839C7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,9 +104,9 @@
 		B05A1F412CB51C0800839C7C /* trivia app */ = {
 			isa = PBXGroup;
 			children = (
+				1A373CA02CB919D200CF01E5 /* abstraction.swift */,
 				B05A1F422CB51C0800839C7C /* trivia_appApp.swift */,
 				B05A1F442CB51C0800839C7C /* ContentView.swift */,
-				1A373C8B2CB911C200CF01E5 /* Abstraction.swift */,
 				B05A1F462CB51C0B00839C7C /* Assets.xcassets */,
 				B05A1F492CB51C0B00839C7C /* Preview Assets.xcassets */,
 				B05A1F732CB53A2900839C7C /* NetworkManager.swift */,
@@ -280,8 +280,8 @@
 				B05A1F762CB5419100839C7C /* UseCase.swift in Sources */,
 				B05A1F742CB53A2900839C7C /* NetworkManager.swift in Sources */,
 				B05A1F452CB51C0800839C7C /* ContentView.swift in Sources */,
-				1A373C8C2CB911C200CF01E5 /* Abstraction.swift in Sources */,
 				B05A1F432CB51C0800839C7C /* trivia_appApp.swift in Sources */,
+				1A373CA12CB919D200CF01E5 /* abstraction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
